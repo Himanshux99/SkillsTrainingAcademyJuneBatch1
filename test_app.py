@@ -23,3 +23,4 @@ def test_userDetails():
     assert response.status_code == 200
     assert response.json["maritalStatus"] == "Unmarried"
     assert response.json["name"] == "Himanshu"
+    assert response.json["age"] == "20"
